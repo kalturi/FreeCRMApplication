@@ -13,10 +13,8 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.interactions.Actions;
 
 import com.crm.qa.base.TestBase;
-import com.google.common.io.Files;
 
 public class TestUtil extends TestBase{
 

@@ -14,10 +14,8 @@ import org.testng.annotations.Test;
 import com.crm.qa.Utils.TestUtil;
 import com.crm.qa.base.TestBase;
 import com.crm.qa.pages.ContactsPage;
-import com.crm.qa.pages.DealsPage;
 import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
-import com.crm.qa.pages.TasksPage;
 
 public class ContactsPageTest extends TestBase{
 	LoginPage loginPage;
@@ -84,7 +82,7 @@ public class ContactsPageTest extends TestBase{
 	@Test(priority=1)
 	private void deleteContactOnContactsPage()
 			throws InterruptedException {
-		contactspage.DeleteContact("Ramalakshmi Chatradhi");
+		contactspage.DeleteContact("Latha Kalturi");
 	}
 	
 	

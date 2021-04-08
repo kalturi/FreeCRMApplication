@@ -5,8 +5,8 @@
     <classes>
       <class name="com.crm.qa.testCases.ContactsPageTest">
         <methods>
-          <include name="deleteContactOnContactsPage"/>
           <include name="setUp"/>
+          <include name="ValidateMenuBarItemns"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.crm.qa.testCases.ContactsPageTest -->

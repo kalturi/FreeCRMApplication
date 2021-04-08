@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-03T22:47:04 IST" name="Default suite" finished-at="2021-04-03T22:48:41 IST" duration-ms="96688">
+  <suite started-at="2021-04-06T13:04:51 IST" name="Default suite" finished-at="2021-04-06T13:05:25 IST" duration-ms="33893">
     <groups>
     </groups>
-    <test started-at="2021-04-03T22:47:04 IST" name="Default test" finished-at="2021-04-03T22:48:41 IST" duration-ms="96688">
+    <test started-at="2021-04-06T13:04:51 IST" name="Default test" finished-at="2021-04-06T13:05:25 IST" duration-ms="33893">
       <class name="com.crm.qa.testCases.ContactsPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testCases.ContactsPageTest@4a668b6e]" started-at="2021-04-03T22:47:04 IST" name="setUp" finished-at="2021-04-03T22:47:36 IST" duration-ms="31557" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testCases.ContactsPageTest@5f683daf]" started-at="2021-04-06T13:04:51 IST" name="setUp" finished-at="2021-04-06T13:05:23 IST" duration-ms="31644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="deleteContactOnContactsPage()[pri:1, instance:com.crm.qa.testCases.ContactsPageTest@4a668b6e]" started-at="2021-04-03T22:47:36 IST" name="deleteContactOnContactsPage" finished-at="2021-04-03T22:48:41 IST" duration-ms="65094" status="PASS">
+        <test-method signature="ValidateMenuBarItemns()[pri:1, instance:com.crm.qa.testCases.ContactsPageTest@5f683daf]" started-at="2021-04-06T13:05:23 IST" name="ValidateMenuBarItemns" finished-at="2021-04-06T13:05:25 IST" duration-ms="2215" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteContactOnContactsPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testCases.ContactsPageTest@4a668b6e]" started-at="2021-04-03T22:48:41 IST" name="tearDown" finished-at="2021-04-03T22:48:41 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- ValidateMenuBarItemns -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testCases.ContactsPageTest@5f683daf]" started-at="2021-04-06T13:05:25 IST" name="tearDown" finished-at="2021-04-06T13:05:25 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

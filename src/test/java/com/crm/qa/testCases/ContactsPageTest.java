@@ -1,6 +1,7 @@
 package com.crm.qa.testCases;
 
 import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -79,16 +80,41 @@ public class ContactsPageTest extends TestBase{
 		//contactspage.ClickOnNewContactsButton("bahubali", "sec", "Affiliate", "Terminated", "me@gmail.com", "23344");
 }
 	
-	@Test(priority=1)
+	@Test(priority=1,enabled=false)
 	private void deleteContactOnContactsPage()
 			throws InterruptedException {
-		contactspage.DeleteContact("Latha Kalturi");
+		contactspage.DeleteContact("Srinivas Chowdary Chatradhi");
 	}
 	
-	
-    @AfterMethod
+	@Test(priority=1)
+	public void ValidateMenuBarItemns(){
+		List<String> ExpectedMenu=new ArrayList<String>();
+		ExpectedMenu.add("All");
+		ExpectedMenu.add("Notes");
+		ExpectedMenu.add("Events");
+		ExpectedMenu.add("Deals");
+		ExpectedMenu.add("Tasks");
+		ExpectedMenu.add("Cases");
+		ExpectedMenu.add("Calls");
+		ExpectedMenu.add("Documents");
+		ExpectedMenu.add("Emails");
+		ExpectedMenu.add("Text Messages");
+		//ExpectedMenu.add("Campaigns");
+		List<String> ActualMenu=contactspage.MenuBar();
+		
+		//System.out.println(ExpectedMenu);
+		//System.out.println("**************************************");
+		//System.out.println(ActualMenu);
+		
+		assertTrue(ExpectedMenu.equals(ActualMenu));
+		//[All, Notes, Events, Deals, Tasks, Cases, Calls, Documents, Emails, Text Messages, ]
+		//[All, Notes, Events, Deals, Tasks, Cases, Calls, Documents, Emails, Text Messages, ]
+		}
+   
+
+	@AfterMethod
 	public void tearDown()  {
-		//driver.quit();
+		driver.quit();
 	}
 	
 	
